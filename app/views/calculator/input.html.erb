@@ -1,0 +1,15 @@
+<h1>Lab 9</h1>
+
+
+
+<%= form_tag('/calculator/result.json', :method => 'get', remote: true, id: 'calc_form') do %>
+    <h6> Желательно не вводить число >=7, т.к. увеличение количества разрядов приводит к увеличению итераций</h6>
+    <h7> К примеру, для N = 3 кол-во итераций ~(10^3 - 10^2)</h7>
+    <div class="form-row">
+    <h3> <%= text_field_tag(:param, nil, placeholder: 'введите число', class: 'form-control col') %></h3>
+    </div>
+    <h3> <%= submit_tag('Calculate', class: 'btn btn-primary') %> </h3>
+<% end %>
+<!-- Асинхронный вывод результатов  -->
+<div id="result">
+</div>

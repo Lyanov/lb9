@@ -1,0 +1,709 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 15:44:29 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 279ms (Views: 263.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+CalculatorControllerTest: test_should_get_result
+------------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 15:44:29 +0300
+Processing by CalculatorController#result as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+CalculatorControllerTest: test_should_get_result
+------------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 15:48:11 +0300
+Processing by CalculatorController#result as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 15:48:11 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 196ms (Views: 191.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:07:07 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 171ms (Views: 162.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:07:37 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 157ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:09:10 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 191ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:10:52 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 151ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:33:10 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 145ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:33:38 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 144ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:34:50 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 203ms (Views: 192.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:34:50 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:42:07 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 179ms (Views: 168.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:42:07 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:42:39 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 133ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:42:39 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 13:43:17.815459"], ["updated_at", "2017-12-03 13:43:17.815459"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:43:18 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 220ms (Views: 209.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:43:18 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 18ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 13:51:15.350692"], ["updated_at", "2017-12-03 13:51:15.350692"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:51:15 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 136ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:51:15 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 13:51:27.524042"], ["updated_at", "2017-12-03 13:51:27.524042"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:51:27 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 185ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:51:27 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 13:51:55.625787"], ["updated_at", "2017-12-03 13:51:55.625787"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+Started GET "/calculator/result?param=hello" for 127.0.0.1 at 2017-12-03 16:51:55 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"hello"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 143ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:51:56 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:51:56 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+Started GET "/calculator/result?param=1" for 127.0.0.1 at 2017-12-03 16:51:56 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"1"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 13:54:17.414062"], ["updated_at", "2017-12-03 13:54:17.414062"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 16:54:17 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 196ms (Views: 181.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+Started GET "/calculator/result?param=1" for 127.0.0.1 at 2017-12-03 16:54:17 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"1"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+Started GET "/calculator/result?param=hello" for 127.0.0.1 at 2017-12-03 16:54:17 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"hello"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 16:54:17 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 14:49:22.235143"], ["updated_at", "2017-12-03 14:49:22.235143"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+Started GET "/calculator/result?param=hello" for 127.0.0.1 at 2017-12-03 17:49:22 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"hello"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+Started GET "/calculator/result?param=1" for 127.0.0.1 at 2017-12-03 17:49:22 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"1"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 17:49:22 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 17:49:22 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 14:51:01.280936"], ["updated_at", "2017-12-03 14:51:01.280936"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 17:51:01 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 166ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 17:51:01 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+Started GET "/calculator/result?param=1" for 127.0.0.1 at 2017-12-03 17:51:01 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"1"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+Started GET "/calculator/result?param=hello" for 127.0.0.1 at 2017-12-03 17:51:01 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"hello"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 15:15:09.778786"], ["updated_at", "2017-12-03 15:15:09.778786"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+Started GET "/calculator/result?param=hello" for 127.0.0.1 at 2017-12-03 18:15:10 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"hello"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 172ms (Views: 162.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 18:15:10 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+Started GET "/calculator/result?param=1" for 127.0.0.1 at 2017-12-03 18:15:10 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"1"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 18:15:10 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2017-12-03 15:16:22.923059"], ["updated_at", "2017-12-03 15:16:22.923059"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------
+CalculatorControllerTest: test_should_get_page
+----------------------------------------------
+Started GET "/calculator/result" for 127.0.0.1 at 2017-12-03 18:16:23 +0300
+Processing by CalculatorController#result as HTML
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 191ms (Views: 180.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+CalculatorControllerTest: test_should_get_some_res
+--------------------------------------------------
+Started GET "/calculator/result?param=1" for 127.0.0.1 at 2017-12-03 18:16:23 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"1"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+CalculatorControllerTest: test_should_get_input
+-----------------------------------------------
+Started GET "/calculator/input" for 127.0.0.1 at 2017-12-03 18:16:23 +0300
+Processing by CalculatorController#input as HTML
+  Rendering calculator/input.html.erb within layouts/application
+  Rendered calculator/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CalculatorControllerTest: test_should_get_incorrect_res
+-------------------------------------------------------
+Started GET "/calculator/result?param=hello" for 127.0.0.1 at 2017-12-03 18:16:23 +0300
+Processing by CalculatorController#result as HTML
+  Parameters: {"param"=>"hello"}
+  Rendering calculator/result.html.erb within layouts/application
+  Rendered calculator/result.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
